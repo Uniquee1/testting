@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Titulo</title>
+    </head>
+<body>
+
+    <button onclick="doSomething()"style="background-color: #333333;color: #00ff00; border-radius: 3rem;padding: 10px;">Ano 'to button?</button>
+
+    <p id="text" style="color: blue; font-size: 5rem;"></p>
+
+    <script>
+        function doSomething(){
+            if( document.getElementById("text").innerHTML == "Miss na kita"){
+                document.getElementById("text").innerHTML = "Balik ka na";
+            }
+            else{
+                document.getElementById("text").innerHTML = "Miss na kita";
+                }
+        }
+    </script>
+</body>
+</html>
